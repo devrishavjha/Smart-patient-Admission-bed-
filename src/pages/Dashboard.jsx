@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("ws://localhost:8080");
+const socket = io("https://smart-patient-admission-bed.onrender.com");
 
 export default function Dashboard() {
   const navigate = useNavigate();

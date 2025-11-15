@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { io } from "socket.io-client";
 
-const socket = io("ws://localhost:8080");
+const socket = io("https://smart-patient-admission-bed.onrender.com");
 
 export default function BedSimulate() {
   const { id } = useParams();
