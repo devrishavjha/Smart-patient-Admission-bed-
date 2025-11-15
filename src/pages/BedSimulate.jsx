@@ -69,7 +69,7 @@ export default function BedSimulate() {
 
   // CONSULT AI DOCTOR BUTTON
   const openConsultAI = () => {
-    window.open("https://simulation-nu-ten.vercel.app/", "_blank");
+    window.open("https://doctoraiheart.streamlit.app/", "_blank");
   };
 
   return (
